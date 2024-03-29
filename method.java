@@ -11,11 +11,11 @@ class method {
 
     String judulbuku(int nomor) {
         if (nomor == 1) {
-            return "Hello panda";
+            return "Vayre";
         } else if (nomor == 2) {
-            return "Hello Jerapah";
+            return "Nayle";
         } else {
-            return "Hello Kangkung";
+            return "Eile";
         }
     }
 }
