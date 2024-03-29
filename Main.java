@@ -36,7 +36,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
 
         while (!choice.equalsIgnoreCase("tidak")) {
-            greeting("rachel");
+            greeting("Sulty!");
             cetakTulisan();
             method objek = new method();
             System.out.println("Pilih Buku : \n1. Vayre\n2. Nayle\n3. Elle");
