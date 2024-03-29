@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    static String tulisan = "Selamat datang di Toko Buku Cemerlang!";
+    static String tulisan = "Selamat datang di Toko Buku Jago!";
 
     static void greeting(String nama) {
         System.out.println("Hai, " + nama + " selamat berbelanja!");
@@ -39,7 +39,7 @@ public class Main {
             greeting("rachel");
             cetakTulisan();
             method objek = new method();
-            System.out.println("Pilih Buku : \n1. Hello Panda\n2. Hello Jerapah\n3. Hello Kangkung");
+            System.out.println("Pilih Buku : \n1. Vayre\n2. Nayle\n3. Elle");
             System.out.print("Masukkan nomor buku yang ingin dibeli : ");
             int buku = scan.nextInt();
             System.out.println("Anda memilih buku dengan judul : " + objek.judulbuku(buku));
